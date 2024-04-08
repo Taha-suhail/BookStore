@@ -6,7 +6,7 @@ function Header() {
   return (
     <header>
       <Link to="/" className="logo">
-        <img src={logo} alt="ReactJs" /> ReactJs
+        <img src={logo} alt="ReactJs" /> Bookies
       </Link>
 
       <nav>

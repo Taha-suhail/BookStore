@@ -70,8 +70,8 @@ const upload = multer({ storage: storage })
 
 app.post("/api/books", upload.single("thumbnail")  ,async (req, res) => {
   try {
-    console.log(req.body);
-    console.log(req.file);
+    // console.log(req.body);
+    // console.log(req.file);
 
     const newBook = new Book({
       title: req.body.title,
